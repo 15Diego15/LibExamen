@@ -1,0 +1,20 @@
+List ---> Colección de objetos con una secuencia determinada
+Set ---> Colección de objetos que no se pueden repetir
+Map ---> Colección de objetos almacenados en parejas (clave-valor)
+<---ArrayList--->
+La clase ArrayList permite el almacenamiento de datos en memoria
+de forma parecida a los arrays convencionales pero con una
+gran ventaja: la cantidad de elementos que puede guardar es dinámica.
+Forma parte del paquete java.util.ArrayList
+
+
+nombre.add -->añadir elemento ultima posición
+nombre.set -->modificar elemento
+-- Recorrer ArrayList --
+for (int i=0; i < paises.size(); i++) {
+            System.out.println(paises.get(i));
+}
+// Verificar si esta vacio el list, true == vacio, false == tiene n elementos
+System.out.println(paises.isEmpty());
+
+

@@ -1,0 +1,14 @@
+<---Map--->
+colecciones de parejas en forma clase-valor.
+conocidos como diccionarios.
+
+HashMap --> los elementos no tienen un orden específico.
+Permite una clave con valor nulo y puede tener varios valores nulos.
+
+LinkedHashMap --> los elementos están ordenados según se han insertado.
+Permite una clave con valor nulo y puede tener varios valores nulos.
+
+diccionario.get("Comida")// mostrar objeto
+Object put(Object key, Object value)//añadir objeto
+diccionario.remove(palabra);//Eliminar palabra del HashMap.
+diccionario.containsKey(palabra) //Quiere decir si la palabrea ya existe, asociarla a un if, if == true, return false
